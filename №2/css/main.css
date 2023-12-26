@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+    width: 50px;
+    height: 100%;
+    transition: width 0.8s ease, transform 0.8s ease;
+}
+
+.menu>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+    width: 170px;
+}
+
+p{
+    color: #fff;
+    cursor: pointer;
+}
+
+h5{
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+
+img{
+    width: 30px;
+    
+}
+
+.menu.open{
+    width: 200px;
+}

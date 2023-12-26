@@ -1,0 +1,14 @@
+.container{
+    background-image: url(/img/4920290.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    background-color: blanchedalmond;
+}
+
+.movable {
+    position: absolute;
+    pointer-events: none; 
+    width: 100px;
+    height: 100px;
+}
